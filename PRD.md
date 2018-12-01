@@ -36,11 +36,11 @@ We will be able to make our own memes through the automatic pandaman generator w
 |    #     |    Title     |       User story     |      Importance     |      Notes     |
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|
 | 1      |Fight with memes      | user wanna spoof friends with memes | Must Have |  |
-| 1      |Interesting things and people     | things and people make you feel so interesting that want to make memes | Must Have |  |
+| 2      |Interesting things and people     | things and people make you feel so interesting that want to make memes | Must Have |  |
 
 ## User interaction and design
 #### Flow Chart
-![showcase](showcase/showcase3.png)
+![showcase](showcase/showcase3.png)  
 The architecture of the application is fairly straightforward.   
 ...
 

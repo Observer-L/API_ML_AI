@@ -10,11 +10,14 @@ Pandaman is one of the most popular memes in China.
 you can use any static image with face and text as input, the APP will automatically generate a crazy pandaman meme for you!
 
 ## The Tools of Face Detection and APIs
-I use Dlib’s get_frontal_face_detector, along with the 68 point shape prediction model.
-and use BaiduAI's censor APIs for user's input(both image and text)
+### Dlib
+[Dlib](https://github.com/davisking/dlib) is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.  
+In this project, we'll use Dlib’s get_frontal_face_detector, along with the [68 point shape prediction model](https://github.com/davisking/dlib-models).
+### APIs
+When it comes to sensitive content, we'll use BaiduAI's [Image Censoring API](http://ai.baidu.com/docs#/ImageCensoring-API/top) and [Text Censoring API](http://ai.baidu.com/docs#/TextCensoring-API/top) to handle user's input(both image and text)
 
 ## Architecture of Automatic Meme Generator
-![showcase](showcase/showcase3.png)
+![showcase](showcase/showcase3.png)  
 The architecture of the application is fairly straightforward.   
 ...
 
