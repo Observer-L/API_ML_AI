@@ -26,13 +26,21 @@
 | 1      |fight with stickers      | user wanna spoof somebody or something interesting | Must Have |  |
 
 ## User interaction and design
+#### Architecture of Automatic Meme Generator
+![showcase](showcase/showcase3.png)
+The architecture of the application is fairly straightforward.   
+...
+
+#### interface
+![showcase](showcase/showcase2.png)
 
 ## Questions
 |    Question     |       Outcome     |
 | ------------- |:-------------:|
-| Copyright Issue      |       |
 | image and text may include potentially sensitive content      |  using Baidu's image & text censoring APIs     |
 
 
 ## Not doing
 * provides both free(watermark) and paid features to users
+* We’ve successfully built the very first part in a program that could be used as an API to generate memes automatically.
+By hooking up our program to something like Flask, we could display a web page allowing for users to upload their own images, and get back fully complete memes.  
