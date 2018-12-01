@@ -1,3 +1,5 @@
 .idea/
 src/shape_predictor_68_face_landmarks.dat
 src/.ipynb_checkpoints/
+config.py
+src/__pycache__/
