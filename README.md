@@ -3,12 +3,13 @@
 ## what is Crazy Pandaman
 Pandaman is one of the most popular memes in China.  
 Crazy Pandaman is a app that allows you to make your own pandaman meme.  
-...  
 [click here for PRD](https://github.com/Observer-L/API_ML_AI/blob/master/PRD.md)  
-[click here for DEMO](https://github.com/Observer-L/API_ML_AI/blob/master/src/%5BDEMO%5DPandaman%20Meme%20Generator.ipynb)
+[click here for DEMO](https://github.com/Observer-L/API_ML_AI/blob/master/src/%5BDEMO%5DPandaman%20Meme%20Generator.ipynb)  
+[click here to watch the video](https://github.com/Observer-L/API_ML_AI/blob/master/showcase/PitchTalk.mp4)
 
-## what you can do
+## What you can do
 you can use any static image with face and text as input, the APP will automatically generate a crazy pandaman meme for you!
+![prototype](showcase/DEMO.gif)
 
 ## The Tools of Face Detection and APIs
 ### Dlib
@@ -18,12 +19,9 @@ In this project, we'll use Dlib’s get_frontal_face_detector, along with the [6
 When it comes to sensitive content, we'll use BaiduAI's [Image Censoring API](http://ai.baidu.com/docs#/ImageCensoring-API/top) and [Text Censoring API](http://ai.baidu.com/docs#/TextCensoring-API/top) to handle user's input(both image and text)
 
 ## Architecture of Automatic Meme Generator
-![showcase](showcase/showcase3.png)  
-The architecture of the application is fairly straightforward.   
-...
+![PitchTalk](showcase/PitchTalk.png)
+![flow](showcase/flow.png)  
 
 ## Where To Go From Here
 We’ve successfully built the very first part in a program that could be used as an API to generate memes automatically.  
 By hooking up our program to something like Flask, we could display a web page allowing for users to upload their own images, and get back fully complete memes.  
-With something like youtube-dl, we could have users paste in YouTube url videos to automatically generate memes.  
-In case you missed it, the source code is available at Github.
