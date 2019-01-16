@@ -2,24 +2,25 @@
 
 |         |            |
 | ------------- |:-------------:|
-| Target release      | 1.0 |
-| Epic      |  Pandaman Meme Generator      |
-| Document status | Draft      |
+| Target release      | 2019-01-16 |
+| Epic      |  Crazy Pandaman Meme Generator      |
+| Document status | Completed      |
 | Designer      | Observer-L |
 | Developer      | Observer-L      |
 | QA | Observer-L      |
 
 ## Goals
-* Our goal is to create a automatic pandaman generator that allows you to add custom text and image to make your own pandaman memes.
-* Sometimes users see a interesting meme and want to be able to make a custom meme.
+* Our goal is to create a automatic meme generator that allows you to add custom text and image to make your own pandaman memes.
+* to create infinite possibility with a simple app.
+* easy come easy go, share your custom memes with friends and have fun!
 
 ## Background and strategic fit
-We all know meme is usually used in every social platforms. 
-However, Most of our users get memes from third party or make memes by some PS APPs, which limit creativity and waste time, so this is something we need to solve.
-We will be able to make our own memes through the automatic pandaman generator with creativity!
-
-### Customer research
-* ...
+* As the years went on and Facebook was introduced, the popularity of memes started to skyrocket. Soon enough, users of QQ, wechat and other social platforms in China was even creating some "Chinese style" memes about their real-life drama! Fast forward to the present day and you see memes everywhere from Twitter to your wechat moments. Younger generations can’t even remember a time when memes didn’t exist! 
+* One of the most famous memes in China is "Pandaman":
+![examples](showcase/examples.png)  
+You'll find that the faces are always the same except for the words and actions.  
+The fixed template limits our creativity, we want to be creative, we need a tool to create!   
+That's the main reason I want to build this app.
 
 ## Assumptions
 ### How can I customize my meme?
@@ -27,7 +28,7 @@ We will be able to make our own memes through the automatic pandaman generator w
 * You can move and resize the text boxes by dragging them around.
 * You can customize the font color, outline color, and outline width just to the right of where you type your text.
 * You can further customize the font and add additional text boxes in the More Options section.
-### Why is there an "created by crazy pandaman webapp" watermark on my memes? 
+### Why is there an "created by Crazy Pandaman Webapp" watermark on my memes? 
 * The watermark helps other people find where the meme was created, so they can make memes too! 
 * However, if you'd really like to, you can remove our watermark from all images you create.
 
@@ -35,14 +36,13 @@ We will be able to make our own memes through the automatic pandaman generator w
 ## Requirements
 |    #     |    Title     |       User story     |      Importance     |      Notes     |
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|
-| 1      |Fight with memes      | user wanna spoof friends with memes | Must Have |  |
-| 2      |Interesting things and people     | things and people make you feel so interesting that want to make memes | Must Have |  |
+| 1      |war of memes on Wechat    | user want to spoof friends with memes | Must Have |  |
+| 2      |Interesting things and people     | something funny make you want to customize memes | Must Have |  |
 
 ## User interaction and design
 #### Flow Chart
-![showcase](showcase/showcase3.png)  
+![showcase](showcase/flow.png)  
 The architecture of the application is fairly straightforward.   
-...
 
 #### User interaction and design
 ![showcase](showcase/showcase2.png)
