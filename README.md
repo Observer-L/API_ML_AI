@@ -1,11 +1,12 @@
 # Meme generator in Python with Face Detection
 ![showcase](showcase/showcase1.png)
-## what is Crazy Pandaman
+## What is Crazy Pandaman
 Pandaman is one of the most popular memes in China.  
 Crazy Pandaman is an app that allows you to make your own pandaman meme.  
 [click here for PRD](https://github.com/Observer-L/API_ML_AI/blob/master/PRD.md)  
 [click here for demo code](https://github.com/Observer-L/API_ML_AI/blob/master/src/%5BDEMO%5DPandaman%20Meme%20Generator.ipynb)  
 [click here to watch the video](http://www.iqiyi.com/w_19s5zz3imd.html)
+I highly recommend [reading this post on my blog](https://observer-l.github.io/project/crazy-pandaman)  
 
 ## What you can do
 you can use any static image with face and text as input, the APP will automatically generate a crazy pandaman meme for you!

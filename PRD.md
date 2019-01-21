@@ -28,7 +28,7 @@ That's the main reason I want to build this app.
 * You can move and resize the text boxes by dragging them around.
 * You can customize the font color, outline color, and outline width just to the right of where you type your text.
 * You can further customize the font and add additional text boxes in the More Options section.
-### Why is there an "created by Crazy Pandaman Webapp" watermark on my memes? 
+### Why is there a "created by Crazy Pandaman Webapp" watermark on my memes? 
 * The watermark helps other people find where the meme was created, so they can make memes too! 
 * However, if you'd really like to, you can remove our watermark from all images you create.
 
